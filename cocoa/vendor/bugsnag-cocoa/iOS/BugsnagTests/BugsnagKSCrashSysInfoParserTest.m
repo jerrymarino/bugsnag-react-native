@@ -8,6 +8,7 @@
 
 @import XCTest;
 
+#import <TargetConditionals.h>
 #import "BugsnagKSCrashSysInfoParser.h"
 NSNumber * _Nullable BSGDeviceFreeSpace(NSSearchPathDirectory directory);
 

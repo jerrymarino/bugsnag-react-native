@@ -1,3 +1,4 @@
+#import <TargetConditionals.h>
 #if (TARGET_OS_TV || TARGET_OS_IPHONE)
 #define BSGOOMAvailable 1
 #else
